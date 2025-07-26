@@ -3,31 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
+    title: "Cibt Visas",
     description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    tags: ["React", "Vue", "php", "TailwindCSS", "Supabase"],
+    demoUrl: "https://www.cibtvisas.com/",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Search Commercial",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Search Commercial is an affordable all-in-one platform for in-depth property research. Get access to up-to-date real estate and property databases in minutes.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
+    tags: ["Vue.js", "Node", "Leaflet.js", "Java"],
+    demoUrl: "https://searchcommercial.com.au/real-estate/",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "E-Assembly",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "The e-Assembly project modernized the Goa Legislative Assembly by replacing paper-based processes with a digital platform. Launched in July 2014 after 1.5 years of development by the IT Directorate and Legislature wing, it streamlined legislative workflows, cut costs on paper and storage, and enabled MLAs to submit questions and access documents online, improving efficiency and participation.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+    tags: ["Vue.js", "Node.js", "Java"],
+    demoUrl: "https://eassemblygoa.gov.in/",
     githubUrl: "#",
   },
 ];
@@ -82,13 +82,13 @@ export const ProjectsSection = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
+                    {/* <a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/swizelmagna"
           >
             Check My Github <ArrowRight size={16} />
           </a>
